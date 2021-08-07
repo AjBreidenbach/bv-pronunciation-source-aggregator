@@ -1,0 +1,24 @@
+{
+  "name": "bv-pronunciation-source-aggregator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "htmlparser2": "^6.1.0",
+    "mmmagic": "^0.5.3",
+    "nan": "^2.15.0",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^4.2.0",
+    "tar": "^6.1.6",
+    "tmp-promise": "^3.0.2"
+  },
+  "bin": {
+    "bv-pronunciation": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
